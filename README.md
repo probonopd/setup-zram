@@ -4,7 +4,11 @@ A portable, POSIX-compliant shell script to install and configure zram compresse
 
 ## Motivation
 
-As of early 2026, the current global RAM market is experiencing a severe shortage, driving an __explosion in prices__ for both DDR4 and DDR5 modules as well as server‑grade memory. A key driver is the rapid shift of chipmakers toward memory for AI data centers, which consumes far more wafer capacity per bit and leaves significantly less production available for conventional PC and mobile DRAM. At the same time, manufacturers had previously cut output after an oversupply period, so inventories entering late 2025 were thin, meaning surging AI and cloud demand quickly translated into spot and contract price spikes of __several hundred percent__ for common DRAM parts. Analysts now expect elevated memory prices and tight supply to persist __at least through 2027__ as new fabrication capacity for both DRAM and NAND comes online slowly, pushing PC, laptop, smartphone, and even automotive makers to raise device prices, reduce default RAM configurations, or accept lower margins in the near term.
+As of early 2026, the current global RAM market is experiencing a severe shortage, driving an __explosion in prices__ for both DDR4 and DDR5 modules as well as server‑grade memory. 
+
+<details>
+  A key driver is the rapid shift of chipmakers toward memory for AI data centers, which consumes far more wafer capacity per bit and leaves significantly less production available for conventional PC and mobile DRAM. At the same time, manufacturers had previously cut output after an oversupply period, so inventories entering late 2025 were thin, meaning surging AI and cloud demand quickly translated into spot and contract price spikes of __several hundred percent__ for common DRAM parts. Analysts now expect elevated memory prices and tight supply to persist __at least through 2027__ as new fabrication capacity for both DRAM and NAND comes online slowly, pushing PC, laptop, smartphone, and even automotive makers to raise device prices, reduce default RAM configurations, or accept lower margins in the near term.
+</details>
 
 So let's get some "free RAM" by compressing it, trading some CPU usage for more available RAM.
 
