@@ -253,11 +253,11 @@ sudo ./setup-zram.sh remove
 ## System Compatibility
 
 ### Tested On
-- Debian 11, 12 (systemd)
-- Ubuntu 20.04, 22.04, 24.04 (systemd)
-- Devuan 4, 5, 6 (SysVinit)
-- Alpine Linux (OpenRC)
-- Fedora 38+ (systemd)
+- [ ] Debian 11, 12 (systemd)
+- [ ] Ubuntu 20.04, 22.04, 24.04 (systemd)
+- [x] Devuan 6 (SysVinit)
+- [ ] Alpine Linux (OpenRC)
+- [ ] Fedora 38+ (systemd)
 
 ### Kernel Requirements
 - Linux 5.0+ recommended
